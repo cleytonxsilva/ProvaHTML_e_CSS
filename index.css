@@ -1,3 +1,275 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+header {
+
+    padding-top: 16px;
     background: #043873;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+#logo img {
+    background-color: #043873;
+    width: auto;
+    height: auto;
+}
+
+#logo h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+#div_nav nav {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+#navbar select {
+
+    font-family: 'DM Sans';
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    border-color: transparent;
+    background: transparent;
+}
+
+#div_botoes {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+#botao_login {
+    width: 126px;
+    height: 60px;
+    color: #043873;
+    background-color: #FFE492;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+
+#botao_trywhite {
+    width: 227px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao_trywhite img {
+    height: auto;
+    width: auto;
+}
+
+.home {
+    background: #043873;
+    background-image: url(/img/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 927px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#textos_home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-right: 15em;
+}
+
+#textos_home h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+#textos_home p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+
+#textos_home button {
+    width: 219px;
+    height: 63px;
+    color: #FFFFFF;
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_page {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    gap: 114px;
+}
+
+#textos_work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#textos_work h1 {
+
+    font-family: 'Inter';
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+    z-index: 0;
+
+
+}
+
+#textos_work h1 img {
+    position: absolute;
+    left: auto;
+    right: 1%;
+    top: 80%;
+    z-index: -1;
+}
+
+#textos_work p {
+
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-bottom: 60px;
+
+}
+
+#textos_work button {
+    width: 186px;
+    height: 63px;
+    color: #FFFFFF;
+    background-color: #4F9CF9;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+#img_background2 {
+    width: 661px;
+    height: auto;
+}
+
+footer {
+    background: #043873;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 81px;
+}
+
+#textos_footer {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+#sociais_footer {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    height: 20px;
+    width: auto;
 }
